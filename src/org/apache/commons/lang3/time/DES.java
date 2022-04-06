@@ -17,7 +17,7 @@ import java.security.spec.InvalidKeySpecException;
 class DES{
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidKeySpecException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
         //String we want to encrypt
-        String  message="Dogma";
+        String message="Secret message";
         byte[] myMessage =message.getBytes(); //string to byte array as DES works on bytes
 
         //If you want to use your own key
